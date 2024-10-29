@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   annotations:
     alb.ingress.kubernetes.io/scheme: internet-facing
-    alb.ingress.kubernetes.io/subnets: subnet-0e71d558e86e0808f, subnet-0b8cc2b133dc16244, subnet-04a3ac7017fe555cf
+    alb.ingress.kubernetes.io/subnets: subnet-044a4b316b3b5b619, subnet-0e29cafd42a7e3fab, subnet-045a075a207293eb0
     alb.ingress.kubernetes.io/target-type: ip
   name: "2048-ingress"
   #namespace: "app-ns"
